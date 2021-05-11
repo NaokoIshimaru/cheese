@@ -1,0 +1,104 @@
+body{
+    width: 960px;
+}
+
+.title_box{
+    background: url(../image/mainbg.png);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title_box_title{
+    font-size: 48px;
+    color: white;
+    text-shadow: 1px 1px 2px pink;
+}
+
+.title_box_text{
+    font-size: 36px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.image_box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image_box div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image_box_image{
+    width: 30%;
+    height: 30%;
+}
+
+.image_box_text{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.s_box1{
+    width: 50px;
+    height: 50px;
+}
+
+.s_box2{
+    width: 50px;
+    height: 50px;
+}
+
+.s_box3{
+    width: 50px;
+    height: 50px;
+}
+
+.s_box4{
+    width: 50px;
+    height: 50px;
+}
+
+.s_box5{
+    width: 50px;
+    height: 50px;
+}
+
+.text_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.text_box div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 85%;
+}
+
+.text_box_about{
+    font-size: 24px;
+    color: #ffd61a;
+}
